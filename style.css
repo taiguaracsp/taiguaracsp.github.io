@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --bgColor: #223344;
-    --bgColor2: #090a0f;
-    --accentColor: #E6E6E6;
+    --bgColor: #404040;
+    --bgColor2: #000000;
+    --accentColor: #35ccd4;
     --font: 'Karla', sans-serif;
     --delay: .3s;
 }
@@ -81,21 +81,14 @@ body {
 #hashtag {
     position: relative;
     padding-bottom: 20px;
-    color: var(--accentColor);
-    font-size: 1rem;
+    color: white;
+    font-size: 0.75rem;
     display: block;
     font-family: var(--font);
     width: 100%;
     text-align: center;
 
-    /*  animation   */
-    overflow: hidden;
-    background: linear-gradient(90deg, var(--bgColor), var(--accentColor), var(--bgColor));
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 3s linear var(--delay) infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    
 }
 
 
