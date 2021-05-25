@@ -41,6 +41,30 @@ body {
     text-decoration: none;
 }
 
+#info1 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#info2 {
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
 #links {
     max-width: 500px;
     width: auto;
